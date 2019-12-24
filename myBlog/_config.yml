@@ -98,9 +98,10 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: 'git'
-   repo: ssh://git@github.com/netizenHan/netizenHan.github.io
-   branch: master
+  type: git
+  repo: 
+    github: https://git@github.com/netizenHan/netizenHan.github.io
+  branch: master
   
   
   
